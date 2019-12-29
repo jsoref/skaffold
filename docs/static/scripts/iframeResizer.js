@@ -925,7 +925,7 @@
 		addEventListener(window,'resize', function(){resizeIFrames('resize');});
 
 		addEventListener(document,'visibilitychange',tabVisible);
-		addEventListener(document,'-webkit-visibilitychange',tabVisible); //Andriod 4.4
+		addEventListener(document,'-webkit-visibilitychange',tabVisible); //Android 4.4
 		addEventListener(window,'focusin',function(){resizeIFrames('focus');}); //IE8-9
 		addEventListener(window,'focus',function(){resizeIFrames('focus');});
 	}
